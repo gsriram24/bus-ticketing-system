@@ -29,7 +29,7 @@ export default class QRScanner extends Component {
         <View style= {styles.QRContainer}>
           <QRCodeScanner
           onRead={this.onSuccess}
-          cameraType='front'
+          showMarker={true}
           />
         </View>
         <View style= {styles.headerContainer}>
